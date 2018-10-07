@@ -3,15 +3,14 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { SliderComponent } from './slider/slider.component';
 
+import { Ng2SimpleRangeSliderModule } from 'ng2-simple-range-slider';
 @NgModule({
   declarations: [
     AppComponent,
-    SliderComponent
   ],
   imports: [
-    BrowserModule,FormsModule
+    BrowserModule,FormsModule,Ng2SimpleRangeSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

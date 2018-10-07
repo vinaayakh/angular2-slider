@@ -1,7 +1,0 @@
-<div class="container">
-  <div class="slider">
-    <input #sliderInput value=sliderValue type="range" [min]="sliderMin" [max]="sliderMax" name="rangeSlider" #rangeSlider="ngModel" [(ngModel)]="sliderValue" (input)="detectInputChange($event)"/>
-    <div class="slider-fill" [ngStyle]="{width : ((sliderValue-sliderMin)/(sliderMax-sliderMin))*100+'%'}"></div>
-    <div class="slider-value" *ngIf="showSliderValue">{{sliderValue}}</div>
-  </div>
-</div>

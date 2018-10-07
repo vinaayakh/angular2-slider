@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng2-simple-range-slider": [
+        "dist/ng2-simple-range-slider"
+      ],
+      "ng2-simple-range-slider/*": [
+        "dist/ng2-simple-range-slider/*"
+      ]
+    }
   }
 }
